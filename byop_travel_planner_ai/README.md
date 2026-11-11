@@ -6,7 +6,6 @@ Build an AI-driven chatbot that helps travelers plan trips by:
 - recommending top hotels using a scoring model,
 - generating a day-wise itinerary for the selected destination.
 
-This follows the ShopAssist pattern: conversational information gathering + deterministic recommendation logic for reliability.
 
 ## 2) AI Approach / Model
 This project uses a **hybrid AI approach**:
@@ -22,8 +21,6 @@ Why this choice:
 For this demonstration, curated sample datasets are included:
 - `data/hotels.csv` (hotel metadata: destination, price, style, rating, amenities, description)
 - `data/itineraries.csv` (day-wise itinerary templates by destination)
-
-In production, these can be replaced with public datasets (for example from Kaggle), OTA APIs, and review platforms.
 
 ## 4) Key Design Decisions
 1. **Progressive requirement collection**  
