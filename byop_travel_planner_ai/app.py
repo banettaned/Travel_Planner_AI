@@ -146,7 +146,7 @@ def chat() -> None:
     planner = TravelPlannerAI(DATA_DIR / "hotels.csv", DATA_DIR / "itineraries.csv")
     prefs = UserPreferences()
 
-    print("Travel Planner AI (ShopAssist-style BYOP)")
+    print("Travel Planner AI)")
     print("Tell me your plan. Example: 'I need a budget trip to Paris for 3 days with wifi and breakfast.'")
 
     while True:
