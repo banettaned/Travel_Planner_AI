@@ -1,4 +1,4 @@
-# Travel Planner AI (BYOP using ShopAssist-style design)
+# Travel Planner AI 
 
 ## 1) Project Goal
 Build an AI-driven chatbot that helps travelers plan trips by:
